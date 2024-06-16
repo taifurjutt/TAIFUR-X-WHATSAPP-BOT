@@ -15,13 +15,13 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
   if (!q) return reply('*Please give me googledrive url...!!*')   
 let res = await fg.GDriveDl(q)
-reply(`\n⬇️  *CYBER-X GDRIVE DOWNLOADER*  ⬇️
+reply(`\n⬇️  *TAIFUR-X GDRIVE DOWNLOADER*  ⬇️
 
 *📃 File name:*  ${res.fileName}
 *💈 File Size:* ${res.fileSize}
 *🕹️ File type:* ${res.mimetype}
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`)		
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`)		
 conn.sendMessage(from, { document: { url: res.downloadUrl }, fileName: res.fileName, mimetype: res.mimetype }, { quoted: mek })
 } catch (e) {
 reply('*Error..! Your Url is Private. Please Public It*')

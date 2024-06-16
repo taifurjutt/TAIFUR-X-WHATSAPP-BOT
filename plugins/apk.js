@@ -43,7 +43,7 @@ if ( isUrl(q) ) {
 if ( q.includes('https://play.google.com') ) {
 const getlink = q.split("?id=")[1]
 const app = await download(getlink)
-let msgg =`*CYBER-X APK DOWNLOADER* 📱
+let msgg =`*TAIFUR-X APK DOWNLOADER* 📱
 
 📚 *App name -: ${app.name}*
 
@@ -57,7 +57,7 @@ let msgg =`*CYBER-X APK DOWNLOADER* 📱
 1 📂 *APK File*
 2 ℹ *APK Details*
 
-ᴄʏʙᴇʀ-x ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
+ᴛᴀɪꜰᴜʀ-x ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
 ᴀᴘᴘ ɪᴅ - ${app.package}`
 return await conn.sendMessage(from, { image: { url : app.icon } , caption: msgg }, { quoted: mek })
 
@@ -65,7 +65,7 @@ return await conn.sendMessage(from, { image: { url : app.icon } , caption: msgg 
 }
 let psdata = await fetchJson(`https://darkalphaxteam-play-store-api.cyclic.app/api/apps?q=${q}`)
 const app = psdata.results[0]
-let msgg =`*CYBER-X APK DOWNLOADER* 📱
+let msgg =`*TAIFUR-X APK DOWNLOADER* 📱
 
 📚 *App name -: ${app.title}*
 
@@ -81,7 +81,7 @@ let msgg =`*CYBER-X APK DOWNLOADER* 📱
 1 📂 *APK File*
 2 ℹ *APK Details*
 
-ᴄʏʙᴇʀ-x ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
+ᴛᴀɪꜰᴜʀ-x ᴀᴘᴋ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
 ᴀᴘᴘ ɪᴅ - ${app.appId}`
 await conn.sendMessage(from, { image: { url : app.icon } , caption: msgg }, { quoted: mek })
 } catch (e) {

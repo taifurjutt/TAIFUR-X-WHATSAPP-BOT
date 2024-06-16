@@ -122,9 +122,9 @@ const db_pool = new DBM({
     db: config.DATABASE_URL
 }) 
  const data = await db_pool.get('MENU_TEXT')
-await conn.sendMessage(from, { audio: { url: 'https://github.com/darkalphaxteam/CYBER-X-BETA-1.5.1-RELEASE-/raw/master/LocalData/audio/.alive.mp3' }, mimetype: 'audio/mp4', ptt : true ,fileName: 'alive.mp3' })
+await conn.sendMessage(from, { audio: { url: 'https://github.com/Itxtaifur/Taifur-md/blob/main/assets/alive.mp3' }, mimetype: 'audio/mp4', ptt : true ,fileName: 'alive.mp3' })
 const yt =`
-📑 *CYBER-X WHATSAPP BOT COMMANDS LIST*
+📑 *TAIFUR-X WHATSAPP BOT COMMANDS LIST*
 
 ${data} 
 
@@ -141,14 +141,14 @@ ${data}
   1.7  Text to Image Command list
   1.8  Photo edit Command list
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 
 await conn.sendMessage(from,{text: yt },{quoted:mek })
 
 } catch (e) {
 const yt =`
-📑 *CYBER-X WHATSAPP BOT COMMANDS LIST*
+📑 *TAIFUR-X WHATSAPP BOT COMMANDS LIST*
 
 📚 This is the result of our team's hard work and our team owns the bot's rights and code rights. Therefore, you have no chance to change and submit our bot under any circumstances
 
@@ -164,7 +164,7 @@ const yt =`
   1.6  Extra command list
   1.7  Text to Image command list
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 
 await conn.sendMessage(from,{text: yt },{quoted:mek })
@@ -197,14 +197,14 @@ try{
             + `END:VCARD`
 await conn.sendMessage(from,{ contacts: { displayName: data ,contacts: [{ vcard }] }},{quoted:mek })
 } catch (e) {
-await conn.sendMessage(from,{text: "*❗ No Added Data in Database*\n\n_Please Do this to Use Your Number for this Vcard_\n\n1. ```.apply OWNER_NUMBER=YOUR NUMBER```\n2. ```.apply OWNER_NAME=YOUR NAME```\n\nᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ  ᴏꜰꜰɪᴄɪᴀʟ\nᴄʏʙᴇʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ɪɪ" },{quoted:mek })
+await conn.sendMessage(from,{text: "*❗ No Added Data in Database*\n\n_Please Do this to Use Your Number for this Vcard_\n\n1. ```.apply OWNER_NUMBER=YOUR NUMBER```\n2. ```.apply OWNER_NAME=YOUR NAME```\n\nᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ  ᴏꜰꜰɪᴄɪᴀʟ\nᴛᴀɪꜰᴜʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ɪɪ" },{quoted:mek })
 const vcard = `BEGIN:VCARD\n` // metadata of the contact card
             + `VERSION:3.0\n`
             + `FN:CYBER-X USER\n` // full name
             + `ORG:CYBER-X GANG 2023;\n`// the organization of the contact
-            + `TEL;type=CELL;type=VOICE;waid=94711421243:+94711421243\n`// WhatsApp ID + phone number
+            + `TEL;type=CELL;type=VOICE;waid=4593707292:+94711421243\n`// WhatsApp ID + phone number
             + `END:VCARD`
-await conn.sendMessage(from,{ contacts: { displayName: "CYBER-X USER" ,contacts: [{ vcard }] }},{quoted:mek })
+await conn.sendMessage(from,{ contacts: { displayName: "TAIFUR-X USER" ,contacts: [{ vcard }] }},{quoted:mek })
 
 }
 })
@@ -222,14 +222,14 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 const deta = await fetchJson('https://api.github.com/repos/darkalphaxteam/CYBER-X-WHATSAPP-BOT')
 let data = await fetchJson('https://raw.githubusercontent.com/darkalphaxteam/CYBER-X-WHATSAPP-BOT/main/package.json')
-const maru =`*CYBER-X 2.0 WHATSAPP USER BOT* 
+const maru =`*TAIFUR-X 2.0 WHATSAPP USER BOT* 
 
 This is the result of our team's hard work and our team owns the bot's rights and code rights. Therefore, you have no chance to change and submit our bot under any circumstances.
 
-https://github.com/darkalphaxteam/CYBER-X-WHATSAPP-BOT
+https://github.com/Itxtaifur/TAIFUR-X-WHATSAPP-BOT
 
 *─────────────────────*
-🎲 *Cyber-X 2.0 Repostory Status*
+🎲 *TAIFUR-X 2.0 Repostory Status*
 *─────────────────────*
 
 *️⃣ Stars - ${deta.stargazers_count}
@@ -238,17 +238,17 @@ https://github.com/darkalphaxteam/CYBER-X-WHATSAPP-BOT
 
 *─────────────────────*
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from,
 {text: maru ,
 contextInfo:{
         externalAdReply:{
-            title: "CYBER-X 2.0 WHATSAPP BOT" ,
+            title: "TAIFUR-X 2.0 WHATSAPP BOT" ,
             body: `Latest released Version : v${data.version}`,
-            thumbnail: await getBuffer("https://telegra.ph/file/fee375e711ade5064e3b6.jpg"),
+            thumbnail: await getBuffer("https://telegra.ph/file/0b8c1c7dfcef0618844e8.jpg"),
             mediaType:2,
-            mediaUrl: "https://github.com/darkalphaxteam/CYBER-X-WHATSAPP-BOT",
+            mediaUrl: "https://github.com/Itxtaifur/TAIFUR-X-WHATSAPP-BOT",
         }
 }
     },

@@ -11,7 +11,7 @@
     },
     "author": "darkalphaxteam",
     "dependencies": {
-        "@whiskeysockets/baileys": "git+https://github.com/darkalphaxteam/Baileys-New.git",
+        "@whiskeysockets/baileys": "git+https://github.com/Itxtaifur/Baileys.git",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper-images" : "^1.0.2",
         "@blackamda/telegram-image-url" : "^1.0.0",

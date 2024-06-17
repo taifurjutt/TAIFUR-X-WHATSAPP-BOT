@@ -122,7 +122,7 @@ const db_pool = new DBM({
     db: config.DATABASE_URL
 }) 
  const data = await db_pool.get('MENU_TEXT')
-await conn.sendMessage(from, { audio: { url: 'https://github.com/Itxtaifur/Taifur-md/blob/main/assets/alive.mp3' }, mimetype: 'audio/mp4', ptt : true ,fileName: 'alive.mp3' })
+await conn.sendMessage(from, { audio: { url: 'https://github.com/Itxtaifur/Taifur-md/raw/main/assets/.alive.mp3' }, mimetype: 'audio/mp4', ptt : true ,fileName: 'alive.mp3' })
 const yt =`
 📑 *TAIFUR-X WHATSAPP BOT COMMANDS LIST*
 

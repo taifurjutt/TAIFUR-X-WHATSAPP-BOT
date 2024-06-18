@@ -41,7 +41,7 @@ _You can add you mentioned Number as More Title.Temporary Places auto removing a
 *│ 1.4 - Temporary inbox Command User*
 *│ 1.5 - Temporary Banned User*
 
-ᴄʏʙᴇʀ-x ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ ᴛᴏᴏʟ
+ᴛᴀɪꜰᴜʀ-x ᴄᴏɴꜰɪɢᴜʀᴀᴛɪᴏɴ ᴛᴏᴏʟ
 ᴛᴀʀɢᴇᴛ ɴᴜᴍʙᴇʀ - ${m.quoted.msg}`
 reply(teet)
 } else reply('❌ *Number not Available in WhatsApp*')
@@ -76,7 +76,7 @@ _Please enter a Number as a reply. When you Done Bot will automatically Restart.
 │ 1.5 - Temporary Banned Users
 │ 1.6 - Alive message and image
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 reply(teet)
 } catch (e) {

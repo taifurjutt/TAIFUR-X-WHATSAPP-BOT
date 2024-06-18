@@ -27,7 +27,7 @@ ${latest.result.desc}
 
 🖇️ _Link_ - ${latest.result.link}
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {
@@ -52,7 +52,7 @@ const vid = await tech.allNews()
     for (let i of vid.result ) {
         yt += `📃 *${i.no} - ${i.title}*\n📊 Date : ${i.date}\n🔗 _Link : ${i.link}_ \n\n\n`
     }
- await conn.sendMessage(from,{image:{url: "https://i.ibb.co/V2yG79P/Banner-Maker-27062023-101137.jpg" },caption: yt + "*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
+ await conn.sendMessage(from,{image:{url: "https://i.ibb.co/V2yG79P/Banner-Maker-27062023-101137.jpg" },caption: yt + "*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
 } catch (e) {
 reply('⛔ *Error accurated !!*\n\n' + e )
 l(e)

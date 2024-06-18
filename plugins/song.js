@@ -39,7 +39,7 @@ let thama =`
 
 *2 | 📁 Document File*
 
-ᴄʏʙᴇʀ-x ʏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
+ᴛᴀɪꜰᴜʀ-x ʏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
 ʏᴏᴜᴛᴜʙᴇ ɪᴅ - ${kanu.id}`
 
 return await conn.sendMessage(from, { image: { url : kanu.thumbnail } , caption: thama }, { quoted: mek })
@@ -72,7 +72,7 @@ let thama =`
 
 *2 | 📁 Document File*
 
-ᴄʏʙᴇʀ-x ʏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
+ᴛᴀɪꜰᴜʀ-x ʏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
 ʏᴏᴜᴛᴜʙᴇ ɪᴅ - ${anu.videoId}`
 await conn.sendMessage(from, { image: { url : anu.thumbnail } , caption: thama }, { quoted: mek })
 

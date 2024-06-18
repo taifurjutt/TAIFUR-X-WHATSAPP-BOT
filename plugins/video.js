@@ -40,7 +40,7 @@ let thama =`
 │3 - 720P QUALITY 
 │4 - 1080P QUALITY 
 
-ᴄʏʙᴇʀ-x ʏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
+ᴛᴀɪꜰᴜʀ-x ʏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
 ʏᴏᴜᴛᴜʙᴇ ɪᴅ - ${kanu.id}`
 
 return await conn.sendMessage(from, { image: { url : kanu.thumbnail } , caption: thama }, { quoted: mek })
@@ -73,7 +73,7 @@ let thama =`
 │3 - 720P QUALITY 
 │4 - 1080P QUALITY 
 
-ᴄʏʙᴇʀ-x ʏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
+ᴛᴀɪꜰᴜʀ-x ʏᴛ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ
 ʏᴏᴜᴛᴜʙᴇ ɪᴅ - ${anu.videoId}`
 await conn.sendMessage(from, { image: { url : anu.thumbnail } , caption: thama }, { quoted: mek })
 

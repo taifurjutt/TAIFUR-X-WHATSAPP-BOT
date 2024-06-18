@@ -23,7 +23,7 @@ try{
 if ( !m.quoted ) return reply('*ℹ Please mention a text to Translate*')
 if ( !q ) return reply('ℹ *Please add targeted Language code after the Command*')
 const trt = await translate( m.quoted.msg , {to: q })
-reply(`🌎 *Text translated to ${q} Language*\n\n${trt}\n\n*ᴛʀᴀɴꜱʟᴀᴛᴇᴅ ꜰʀᴏᴍ - translate.google.com*\n*ᴄʏʙᴇʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ • ᴠᴏʟ - ɪɪ*`)
+reply(`🌎 *Text translated to ${q} Language*\n\n${trt}\n\n*ᴛʀᴀɴꜱʟᴀᴛᴇᴅ ꜰʀᴏᴍ - translate.google.com*\n*ᴛᴀɪꜰᴜʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ • ᴠᴏʟ - ɪɪ*`)
 } catch (e) {
 reply(e)
 }
@@ -110,7 +110,7 @@ Download FMWA latest version apk from here... Powered By original FM Mods site: 
   │1.3 - GB WhatsApp : com.gbwhatsapp
   │1.4 - YO WhatsApp : com.yowhatsapp
 
-ᴄʏʙᴇʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ
+ᴛᴀɪꜰᴜʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ
 ᴍᴏᴅᴇᴅ ʙʏ - fmmods.com`
 reply(fouad)
 } catch (e) {
@@ -145,7 +145,7 @@ let deka =`\n*TAIFUR-X  Soundcloud MP3 Downloader* 📥
 
 🖇️ Link : ${anu.url}
 
-ᴄʏʙᴇʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ • ɪɪ
+ᴛᴀɪꜰᴜʀ-x ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ • ɪɪ
 ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰꜰɪᴄɪᴀʟ`
 await conn.sendMessage(from, { image: { url : anu.thumb } , caption: deka }, { quoted: mek })
  let songdata = await fg.soundcloudDl2(anu.url)

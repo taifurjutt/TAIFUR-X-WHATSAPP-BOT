@@ -114,7 +114,7 @@ const cap = `*TAIFUR-X  YT MP3 Downloader*  ✔️
 
 📌  *${search.videos[2].title}* - _${search.videos[2].url}_
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 
 await conn.sendMessage(from, { image: { url: anu.thumbnail }, caption: cap}, { quoted: mek })
@@ -193,7 +193,7 @@ const cap = `*TAIFUR-X  YT MP3 Downloader*  ✔️
 
 📌  *${search.videos[2].title}* - _${search.videos[2].url}_
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 
 await conn.sendMessage(from, { image: { url: anu.thumbnail }, caption: cap}, { quoted: mek })

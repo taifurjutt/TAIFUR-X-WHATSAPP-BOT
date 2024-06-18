@@ -37,7 +37,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 if (!isCreator) { if (!isDev) return reply('🚫 *You must be a Moderator frist*') }
 const duka = await conn.fetchPrivacySettings(true)
-let puka = `🛠️  *ᴄʏʙᴇʀ-x ʙᴏᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴘʀɪᴠᴀᴄʏ ꜱᴇᴛᴛɪɴɢꜱ*  ⚙️
+let puka = `🛠️  *ᴛᴀɪꜰᴜʀ-x ʙᴏᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴘʀɪᴠᴀᴄʏ ꜱᴇᴛᴛɪɴɢꜱ*  ⚙️
 
 ⚙️▕  *Read Recipt* - ${duka.readreceipts}
 ⚙️▕  *Profile Picture* - ${duka.profile}
@@ -49,7 +49,7 @@ let puka = `🛠️  *ᴄʏʙᴇʀ-x ʙᴏᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴘʀɪᴠ
 
 ⚠️ *_This will not cause any trouble to you, and you can only check the privacy status of the bot... This will not harm your privacy in any way..._* 🕊️‼️
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: puka }, { quoted: mek } )
 

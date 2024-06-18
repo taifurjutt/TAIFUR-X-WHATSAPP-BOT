@@ -19,7 +19,7 @@ const vid = await wabetainfo.firstpageposts()
     for (let i of vid ) {
         yt += `🥏 *Title - ${i.title} for ${i.platform} - ${i.date}* \n🔗 *Url : ${i.url}*\n📁 *Description : ${i.shortdesc}* \n\n\n\n`
     }
- await conn.sendMessage(from,{image:{url: "https://telegra.ph/file/4cba162e3b2eb338c6934.jpg" },caption: yt + "*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
+ await conn.sendMessage(from,{image:{url: "https://telegra.ph/file/4cba162e3b2eb338c6934.jpg" },caption: yt + "*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
 } catch (e) {
 reply('⛔ *Error accurated !!*\n\n'+ e )
 l(e)
@@ -52,7 +52,7 @@ const duka = await ainfo.latest()
 
 🔊 ${duka.fulldesc}
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 reply(ok)
 } catch (e) {

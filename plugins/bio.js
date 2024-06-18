@@ -12,7 +12,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ* ⚖️
+const maru =`⚖️ *ᴛᴀɪꜰᴜʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ* ⚖️
 
 👨‍✈️ *Below are the commands to get the details of the developer team of TAIFUR-X  BOT.*
 
@@ -34,7 +34,7 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ* ⚖�
 
 📌  *.akash*     -  _Get the the bio details of BETA TESTER AND BUG TESTER_
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {
@@ -54,7 +54,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
+const maru =`⚖️ *ᴛᴀɪꜰᴜʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
 
 ┌────────────────┐
 │ 👨‍✈️ *𝙼𝚁. 𝙳𝙰𝚁𝙺𝙰𝙻𝙿𝙷𝙰* 👨‍✈️  │
@@ -72,7 +72,7 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {
@@ -92,7 +92,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
+const maru =`⚖️ *ᴛᴀɪꜰᴜʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
 
 ┌─────────────┐
 │👨‍✈️ *𝙼𝚁.𝙲𝙷𝙰𝙼𝙸𝚈𝙰* 👨‍✈️ │
@@ -110,7 +110,7 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {
@@ -130,7 +130,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
+const maru =`⚖️ *ᴛᴀɪꜰᴜʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
 
 ┌─────────────┐
 │ 👨‍✈️ *𝙼𝚁. 𝙰𝙺𝙰𝚂𝙷* 👨‍✈️    │
@@ -148,7 +148,7 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {
@@ -168,7 +168,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
+const maru =`⚖️ *ᴛᴀɪꜰᴜʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
 
 ┌─────────────┐
 │👨‍✈️ *𝙼𝚁. 𝙽𝙰𝙳𝚄𝚆𝙰*  👨‍✈️ │
@@ -186,7 +186,7 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {
@@ -206,7 +206,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
+const maru =`⚖️ *ᴛᴀɪꜰᴜʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
 
 ┌───────────┐
 │👨‍✈️ *𝙼𝚁. 𝙽𝙸𝙼𝙰* 👨‍✈️ │
@@ -224,7 +224,7 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {
@@ -244,7 +244,7 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
+const maru =`⚖️ *ᴛᴀɪꜰᴜʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪᴏ ᴅᴇᴛᴀɪʟꜱ* ⚖️
 
 ┌──────────────┐
 │ 👨‍✈️ *𝙼𝚁. 𝚃𝙷𝙰𝚁𝚄𝚆𝙰* 👨‍✈️  │
@@ -262,7 +262,7 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
 } catch (e) {

@@ -25,7 +25,7 @@ const maru =`\n🧾 *TAIFUR-X  SINHALA SUB DOWNLOADER* 🧾
 🖇️ *Link* - *_${duka.results[0].link}_*
 
 `
-  await conn.sendMessage(from,{image:{url: latest.results.img },caption: maru + "*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
+  await conn.sendMessage(from,{image:{url: latest.results.img },caption: maru + "*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
   await conn.sendMessage(from,{ document:{url:latest.results.dl_link},caption:latest.results.title ,mimetype:'application/zip',fileName:`${latest.results.title}.zip`}, { quoted: mek })
 } catch (e) {
 reply('🚫 *Error Accurated !!*\n\n' + e )
@@ -50,7 +50,7 @@ const vid = await subsearch(q)
     for (let i of vid.results ) {
         yt += `📃 *Movie Name - ${i.title}*\n🔗 _Link : ${i.link}_ \n\n\n`
     }
- await conn.sendMessage(from,{image:{url: "https://telegra.ph/file/d05c60fb40c1ab9f90600.jpg" },caption: yt + "*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
+ await conn.sendMessage(from,{image:{url: "https://telegra.ph/file/d05c60fb40c1ab9f90600.jpg" },caption: yt + "*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
 } catch (e) {
 reply('⛔ *Error accurated !!*\n\n' + e )
 l(e)
@@ -79,7 +79,7 @@ const maru =`\n🧾 *TAIFUR-X  SL SUBTITLES DOWNLOADER* 🧾
 
 🖇️ *Link* - ${q}
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: maru }, { quoted: mek } )
    await conn.sendMessage(from, { document : { url : latest.results.dl_link  }  ,caption: latest.results.title ,mimetype: 'application/zip', fileName: `${latest.results.title}.zip` }, { quoted: mek })

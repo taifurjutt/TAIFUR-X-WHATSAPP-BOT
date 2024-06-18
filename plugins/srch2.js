@@ -58,7 +58,7 @@ const duka = await fetchJson(`https://darkalphaxteam-api.cyclic.app/api/other/gi
 🚧. UserID -${duka.result.user.idUser}
 🛴. Public Repose - ${duka.result.user.publicRepos}`
 
- await conn.sendMessage(from,{image:{url: duka.result.user.avatarUrl },caption: pk + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
+ await conn.sendMessage(from,{image:{url: duka.result.user.avatarUrl },caption: pk + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
 
 } catch (e) {
 reply('🚫 *Error Accurated !!*\n\n' + e )
@@ -83,7 +83,7 @@ const vid = await fetchJson(`https://api.akuari.my.id/search/playstoresearch?que
     for (let i of vid.hasil ) {
         yt += `🧮 *App Name - ${i.title}*\n📊 Developer : ${i.developer} \n🔗 _Link : ${i.url}_ \n\n\n`
     }
- await conn.sendMessage(from,{image:{url: vid.hasil[0].icon },caption: yt + "*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
+ await conn.sendMessage(from,{image:{url: vid.hasil[0].icon },caption: yt + "*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
 } catch (e) {
 reply('⛔ *Error accurated !!*\n\n' + e )
 l(e)

@@ -378,9 +378,9 @@ if ( config.AUTO_REACT == 'true' ) {
 await conn.sendMessage(from, { react: { text: `☑️`, key: mek.key }})
 }
 
-return await conn.sendMessage(from, { document : { url : await dj.video['240p'].download() }  ,caption: dj.title + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'video/mp4', fileName: `${dj.title}.mp4` }, { quoted: mek })
+return await conn.sendMessage(from, { document : { url : await dj.video['240p'].download() }  ,caption: dj.title + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'video/mp4', fileName: `${dj.title}.mp4` }, { quoted: mek })
 }
-await conn.sendMessage(from, { video: {url: await dj.video['240p'].download() }, caption: dj.title + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
+await conn.sendMessage(from, { video: {url: await dj.video['240p'].download() }, caption: dj.title + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
     
     
 if ( config.AUTO_REACT == 'true' ) {
@@ -392,7 +392,7 @@ await conn.sendMessage(from, { react: { text: `☑️`, key: mek.key }})
 if ( rew.includes('APK') ) {
 const getid = rew.split("ɪᴅ - ")[1]
 const app = await download(getid)
-await conn.sendMessage(from, { document : { url : app.dllink } , caption:"📦 *𝙰𝙿𝙺 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 📦\n\n📚 *App name : " + app.name + "*\n📂 *App Size : " + app.size + "*\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${app.name}.apk` }, { quoted: mek })
+await conn.sendMessage(from, { document : { url : app.dllink } , caption:"📦 *𝙰𝙿𝙺 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 📦\n\n📚 *App name : " + app.name + "*\n📂 *App Size : " + app.size + "*\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${app.name}.apk` }, { quoted: mek })
 
 }
 if ( rew.includes('List Updated') ) {
@@ -405,13 +405,13 @@ if ( rew.includes('TIKTOK DOWNLOADER') ) {
 const getlink = rew.split("Link -: ")[1]
 const fulllink = getlink.split("_*")[0]
 let ttdl = await fg.tiktok(fulllink)
-await conn.sendMessage(from, { video: {url: ttdl.play }, caption: ttdl.nickname + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
+await conn.sendMessage(from, { video: {url: ttdl.play }, caption: ttdl.nickname + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
 }
 if ( rew.includes('FB DOWNLOADER') ) {
 const getlink = rew.split("Link -: ")[1]
 const fulllink = getlink.split("_*")[0]
 let ttdl = await getFBInfo(fulllink)
-await conn.sendMessage(from, { video: {url: ttdl.sd }, caption: "SD Quality\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
+await conn.sendMessage(from, { video: {url: ttdl.sd }, caption: "SD Quality\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
 }
 
 }
@@ -423,7 +423,7 @@ const getlink = rew.split("ɪᴅ - ")[1]
 const fulllink = 'https://youtube.com/watch?v=' + getlink
 const dj = await dl.youtubedl(fulllink)
 await conn.sendMessage(from, { react: { text: `⬆️`, key: mek.key }})
-await conn.sendMessage(from, { document : { url : await dj.audio['128kbps'].download() } , caption: dj.title+ "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'audio/mp3', fileName: `${dj.title}.mp3` }, { quoted: mek })
+await conn.sendMessage(from, { document : { url : await dj.audio['128kbps'].download() } , caption: dj.title+ "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'audio/mp3', fileName: `${dj.title}.mp3` }, { quoted: mek })
 await conn.sendMessage(from, { react: { text: `✔️`, key: mek.key }})
 
 }
@@ -444,9 +444,9 @@ if ( config.AUTO_REACT == 'true' ) {
 await conn.sendMessage(from, { react: { text: `☑️`, key: mek.key }})
 }
 
-return await conn.sendMessage(from, { document : { url : await dj.video['360p'].download() }  ,caption: dj.title + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'video/mp4', fileName: `${dj.title}.mp4` }, { quoted: mek })
+return await conn.sendMessage(from, { document : { url : await dj.video['360p'].download() }  ,caption: dj.title + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'video/mp4', fileName: `${dj.title}.mp4` }, { quoted: mek })
 }
-await conn.sendMessage(from, { video: {url: await dj.video['360p'].download() }, caption: dj.title + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
+await conn.sendMessage(from, { video: {url: await dj.video['360p'].download() }, caption: dj.title + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
     
     
 if ( config.AUTO_REACT == 'true' ) {
@@ -470,7 +470,7 @@ const msgg =`
 
 📱 Play Store Link -: https://play.google.com/store/apps/details?id=${app.package}
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from, { image: { url : app.icon } , caption: msgg }, { quoted: mek })
 
@@ -479,13 +479,13 @@ if ( rew.includes('TIKTOK DOWNLOADER') ) {
 const getlink = rew.split("Link -: ")[1]
 const fulllink = getlink.split("_*")[0]
 let ttdl = await fg.tiktok(fulllink)
-await conn.sendMessage(from, { video: {url: ttdl.wmplay }, caption: ttdl.nickname + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
+await conn.sendMessage(from, { video: {url: ttdl.wmplay }, caption: ttdl.nickname + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
 }
 if ( rew.includes('FB DOWNLOADER') ) {
 const getlink = rew.split("Link -: ")[1]
 const fulllink = getlink.split("_*")[0]
 let ttdl = await getFBInfo(fulllink)
-await conn.sendMessage(from, { video: {url: ttdl.hd }, caption: "HD Quality\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
+await conn.sendMessage(from, { video: {url: ttdl.hd }, caption: "HD Quality\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
 }
 
 }
@@ -508,9 +508,9 @@ if ( config.AUTO_REACT == 'true' ) {
 await conn.sendMessage(from, { react: { text: `☑️`, key: mek.key }})
 }
 
-return await conn.sendMessage(from, { document : { url : await dj.video['720p'].download() }  ,caption: dj.title + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'video/mp4', fileName: `${dj.title}.mp4` }, { quoted: mek })
+return await conn.sendMessage(from, { document : { url : await dj.video['720p'].download() }  ,caption: dj.title + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'video/mp4', fileName: `${dj.title}.mp4` }, { quoted: mek })
 }
-await conn.sendMessage(from, { video: {url: await dj.video['720p'].download() }, caption: dj.title + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
+await conn.sendMessage(from, { video: {url: await dj.video['720p'].download() }, caption: dj.title + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
     
     
 if ( config.AUTO_REACT == 'true' ) {
@@ -547,9 +547,9 @@ if ( config.AUTO_REACT == 'true' ) {
 await conn.sendMessage(from, { react: { text: `☑️`, key: mek.key }})
 }
 
-return await conn.sendMessage(from, { document : { url : await dj.video['1080p'].download() }  ,caption: dj.title + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'video/mp4', fileName: `${dj.title}.mp4` }, { quoted: mek })
+return await conn.sendMessage(from, { document : { url : await dj.video['1080p'].download() }  ,caption: dj.title + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'video/mp4', fileName: `${dj.title}.mp4` }, { quoted: mek })
 }
-await conn.sendMessage(from, { video: {url: await dj.video['1080p'].download() }, caption: dj.title + "\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
+await conn.sendMessage(from, { video: {url: await dj.video['1080p'].download() }, caption: dj.title + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" }, { quoted: mek })  
     
     
 if ( config.AUTO_REACT == 'true' ) {
@@ -585,7 +585,7 @@ ${menuc}
 R. Rate us
 S. System information 
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from, { image: { url: "https://telegra.ph/file/cace8541cd66c731250a9.jpg" }, caption: menumg }, { quoted: mek } )
 
@@ -637,7 +637,7 @@ reply(resmsg)
 if ( rew.includes('TAIFUR-X  Fouad-WA') ) {
 const getmod = await mods()
 let moddata = getmod.com_whatsapp
-await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
+await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
 
 }
 }
@@ -666,7 +666,7 @@ ${menuc}
 R. Rate us
 S. System information 
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from, { image: { url: "https://telegra.ph/file/cace8541cd66c731250a9.jpg" }, caption: menumg } , { quoted: mek } )
 
@@ -714,7 +714,7 @@ reply(resmsg)
 if ( rew.includes('TAIFUR-X  Fouad-WA') ) {
 const getmod = await mods()
 let moddata = getmod.com_fmwhatsapp
-await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
+await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
 
 }
 
@@ -744,7 +744,7 @@ ${menuc}
 R. Rate us
 S. System information 
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from, { image: { url: "https://telegra.ph/file/cace8541cd66c731250a9.jpg" }, caption: menumg }, { quoted: mek } )
 
@@ -793,7 +793,7 @@ reply(resmsg)
 if ( rew.includes('TAIFUR-X  Fouad-WA') ) {
 const getmod = await mods()
 let moddata = getmod.com_gbwhatsapp
-await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
+await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
 
 }
 
@@ -822,7 +822,7 @@ ${menuc}
 R. Rate us
 S. System information 
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from, { image: { url: "https://telegra.ph/file/cace8541cd66c731250a9.jpg" }, caption: menumg } , { quoted: mek })
 
@@ -842,7 +842,7 @@ reply(resmsg)
 if ( rew.includes('TAIFUR-X  Fouad-WA') ) {
 const getmod = await mods()
 let moddata = getmod.com_yowhatsapp
-await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
+await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
 
 }
 
@@ -871,7 +871,7 @@ ${menuc}
 R. Rate us
 S. System information 
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from, { image: { url: "https://telegra.ph/file/cace8541cd66c731250a9.jpg" }, caption: menumg } , { quoted: mek })
 
@@ -913,7 +913,7 @@ ${menuc}
 R. Rate us
 S. System information 
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from, { image: { url: "https://telegra.ph/file/cace8541cd66c731250a9.jpg" }, caption: menumg }, { quoted: mek } )
 
@@ -958,7 +958,7 @@ let menumg = `🔐 *TEXT TO IMAGE COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from, { image: { url: "https://telegra.ph/file/cace8541cd66c731250a9.jpg" }, caption: menumg }, { quoted: mek } )
 
@@ -994,7 +994,7 @@ let menumg = `🔐 *PHOTO EDIT COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
-*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
+*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
 await conn.sendMessage(from, { image: { url: "https://telegra.ph/file/cace8541cd66c731250a9.jpg" }, caption: menumg }, { quoted: mek } )
 

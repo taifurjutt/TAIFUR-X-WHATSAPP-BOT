@@ -23,7 +23,7 @@ const vid = await api.search.happymod(q)
     for (let i of vid.result ) {
         yt += `📬 *Title - ${i.title}* \n🔗 _Url : ${i.link}_\n\n\n`
     }
- await conn.sendMessage(from,{image:{url: vid.result[0].thumb },caption: yt + "*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
+ await conn.sendMessage(from,{image:{url: vid.result[0].thumb },caption: yt + "*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
 } catch (e) {
 reply('⛔ *Error accurated !!*')
 l(e)
@@ -116,7 +116,7 @@ let yt =`
         yt += `${i}  `
     }
     
-    const cap = yt + "\n\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*"
+    const cap = yt + "\n\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*"
   await conn.sendMessage(from,{image:{url: "https://telegra.ph/file/27cb87015d418abde1bf4.jpg" },caption: cap },{quoted:mek })
 } catch (e) {
 reply('⛔ *Error accurated !!*'+ e )

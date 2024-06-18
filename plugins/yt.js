@@ -94,7 +94,7 @@ fs.unlinkSync(`./${randomName}`);
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `*Cyber-X YT MP3 Downloader*  ✔️
+const cap = `*TAIFUR-X  YT MP3 Downloader*  ✔️
 
 ╭════════════════⊷❍
 ┃
@@ -173,7 +173,7 @@ if (!q) return reply('*Please give me a song name*')
 let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
-const cap = `*Cyber-X YT MP3 Downloader*  ✔️
+const cap = `*TAIFUR-X  YT MP3 Downloader*  ✔️
 
 ╭════════════════⊷❍
 ┃

@@ -59,7 +59,7 @@ cmd({
     pattern: "setup",
     react: "⚙",
     alias: ["set"],
-    desc: "Cyber-X Database Tools",
+    desc: "TAIFUR-X  Database Tools",
     category: "main",
     use: '.setup',
     filename: __filename

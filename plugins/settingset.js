@@ -5,7 +5,7 @@ cmd({
     pattern: "apply",
     react: "🧑‍🔧",
     alias: ["setapply"],
-    desc: "Cyber-X User Configuration Tool",
+    desc: "TAIFUR-X  User Configuration Tool",
     category: "main",
     use: '.apply',
     filename: __filename
@@ -28,7 +28,7 @@ if ( m.quoted.msg  == '94762862143' ) return reply("❌ *You can't use this Comm
 if ( m.quoted.msg  == '94743386944' ) return reply("❌ *You can't use this Command for Developer Team* 😏🎩")
 const [result] = await conn.onWhatsApp(m.quoted.msg)
 if ( result.exists == true ) {
-const teet =`\n🧑‍🔧 *Cyber-X User & Moderator Configuration* ⚙️
+const teet =`\n🧑‍🔧 *TAIFUR-X  User & Moderator Configuration* ⚙️
 
 _You can add you mentioned Number as More Title.Temporary Places auto removing at next Restart time_
 
@@ -55,7 +55,7 @@ cmd({
     pattern: "reset",
     react: "🔄",
     alias: ["resetapply"],
-    desc: "Cyber-X Data reset Tool",
+    desc: "TAIFUR-X  Data reset Tool",
     category: "main",
     use: '.reset',
     filename: __filename
@@ -63,7 +63,7 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
 if ( !isCreator ) { if (!isDev) return reply('ℹ️ *Sorry ! This is Owner only Command..*') }
-const teet =`\n🧑‍🔧 *Cyber-X WhatsApp Bot Database Reset Function* ⚙️
+const teet =`\n🧑‍🔧 *TAIFUR-X  WhatsApp Bot Database Reset Function* ⚙️
 
 _Please enter a Number as a reply. When you Done Bot will automatically Restart._
 ─────────────────────────────

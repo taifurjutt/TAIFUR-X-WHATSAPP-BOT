@@ -93,7 +93,7 @@ try{
 if (!q) return reply('❗ *Please enter Valid npm Name*')
 const duka = await fg.npmSearch(q)
 let yt =`
-ℹ️ *Cyber-X NPM Informations ( From - npmjs.com )*
+ℹ️ *TAIFUR-X  NPM Informations ( From - npmjs.com )*
 
  Name -:  *${duka.name}*
 

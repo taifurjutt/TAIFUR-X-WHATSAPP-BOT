@@ -16,7 +16,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 if ( !q ) return reply('*Please enter a App name* 📱')
 const vid = await fetchJson(`https://darkalphaxteam-play-store-api.cyclic.app/api/apps?q=${q}`)
-    let yt = '*Cyber-X 2.0 Play Store Search ( Google Play )*\n\n'
+    let yt = '*TAIFUR-X  2.0 Play Store Search ( Google Play )*\n\n'
     for (let i of vid.results ) {
         yt += `📱 *${i.title}*\n🔗 Link : ${i.playstoreUrl} \n\n`
     }

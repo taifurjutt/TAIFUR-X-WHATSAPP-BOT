@@ -351,7 +351,7 @@ const imgURL = await img2url(media)
 const poto = await getBuffer(`https://vihangayt.me/maker/trigger?url=${imgURL}`)
 await fs.unlinkSync(media)
 const sticker = new Sticker(poto , {
-    pack: "Created by Cyber-X" , // The pack name
+    pack: "Created by TAIFUR-X " , // The pack name
     author: "Second edition" , // The author name
     type: StickerTypes.FULL, // The sticker type
     categories: ['🤩', '🎉'], // The sticker category

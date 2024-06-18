@@ -5,7 +5,7 @@ cmd({
     pattern: "device",
     react: "ℹ️",
     alias: ["getdevice"],
-    desc: "Cyber-X User Checking Tool",
+    desc: "TAIFUR-X  User Checking Tool",
     category: "main",
     use: '.device',
     filename: __filename
@@ -41,7 +41,7 @@ if (m.quoted.id.startsWith("3A")) {
   } else if (m.quoted.id.startsWith("CYBER2")) {
   var ss= '```'
  conn.sendMessage(from, { 
-      text : `@${m.quoted.sender.split('@')[0]}  *Is Using:* ${ss}Web WhatsApp(Cyber-X-Wa-Bot)${ss}`, 
+      text : `@${m.quoted.sender.split('@')[0]}  *Is Using:* ${ss}Web WhatsApp(TAIFUR-X -Wa-Bot)${ss}`, 
       mentions : [m.quoted.sender]
     });
 } else if (m.quoted.id.startsWith("ZEROTWO")) {
@@ -73,7 +73,7 @@ cmd({
     pattern: "id",
     react: "📚",
     alias: ["getdeviceid"],
-    desc: "Cyber-X User Checking Tool",
+    desc: "TAIFUR-X  User Checking Tool",
     category: "main",
     use: '.id',
     filename: __filename

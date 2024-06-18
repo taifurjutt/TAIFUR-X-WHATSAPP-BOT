@@ -5,7 +5,7 @@ cmd({
     pattern: "team",
     react: "™️",
     alias: ["cyber_team"],
-    desc: "Get Cyber-X Dev Team Bio Details",
+    desc: "Get TAIFUR-X  Dev Team Bio Details",
     category: "extra",
     use: '.team',
     filename: __filename
@@ -14,7 +14,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ* ⚖️
 
-👨‍✈️ *Below are the commands to get the details of the developer team of CYBER-X BOT.*
+👨‍✈️ *Below are the commands to get the details of the developer team of TAIFUR-X  BOT.*
 
 ⭕ *Use the command you want and get the details you need*
 
@@ -22,7 +22,7 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ* ⚖�
 │👨‍✈️ *𝙳𝙰𝚁𝙺 𝙰𝙻𝙿𝙷𝙰 𝚇 𝚃𝙴𝙰𝙼* 👨‍✈️ │
 └──────────────────┘ 
 
-📌  *.thinura*   -  _Get the bio details of founder and owner of DARKALPHAXTEAM and CYBER-X BOT._
+📌  *.thinura*   -  _Get the bio details of founder and owner of DARKALPHAXTEAM and TAIFUR-X  BOT._
 
 📌  *.chami*     -  _Get the bio details of CO-OWNER and CO-CODER_
 
@@ -47,7 +47,7 @@ cmd({
     pattern: "thinura",
     react: "🎩",
     alias: ["තිනුර","Darkalpha","darkalpha","Thinura"],
-    desc: "Get Cyber-X Dev Team Bio Details",
+    desc: "Get TAIFUR-X  Dev Team Bio Details",
     category: "",
     use: '.thinura',
     filename: __filename
@@ -60,9 +60,9 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 │ 👨‍✈️ *𝙼𝚁. 𝙳𝙰𝚁𝙺𝙰𝙻𝙿𝙷𝙰* 👨‍✈️  │
 └────────────────┘                                        
 
-📌   *DARKALPHAXTEAM හි නිර්මාතෘ වන මොහු, CYBER-X BOT හිද අයිතිකරු සහ නිර්මාතෘ වේ. 👨‍💻*
+📌   *DARKALPHAXTEAM හි නිර්මාතෘ වන මොහු, TAIFUR-X  BOT හිද අයිතිකරු සහ නිර්මාතෘ වේ. 👨‍💻*
 
-📌   *The founder of DARKALPHAXTEAM, He is also the owner and creator of CYBER-X BOT. 👨‍💻👨‍💻*
+📌   *The founder of DARKALPHAXTEAM, He is also the owner and creator of TAIFUR-X  BOT. 👨‍💻👨‍💻*
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
@@ -85,7 +85,7 @@ cmd({
     pattern: "chami",
     react: "⚖️",
     alias: ["රොෂාන්","චමියා","chamiya","Chami","Chamiya"],
-    desc: "Get Cyber-X Dev Team Bio Details",
+    desc: "Get TAIFUR-X  Dev Team Bio Details",
     category: "",
     use: '.chami',
     filename: __filename
@@ -98,9 +98,9 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 │👨‍✈️ *𝙼𝚁.𝙲𝙷𝙰𝙼𝙸𝚈𝙰* 👨‍✈️ │
 └─────────────┘                                        
 
-📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, CYBER-X BOT හි CO-OWNER සහ CO-CODER වේ. 👨‍💻*
+📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, TAIFUR-X  BOT හි CO-OWNER සහ CO-CODER වේ. 👨‍💻*
 
-📌   *A member of the DARKALPHAXTEAM and he is the CO-OWNER and CO-CODER of the CYBER-X BOT. 👨‍💻*
+📌   *A member of the DARKALPHAXTEAM and he is the CO-OWNER and CO-CODER of the TAIFUR-X  BOT. 👨‍💻*
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
@@ -123,7 +123,7 @@ cmd({
     pattern: "akash",
     react: "⚡",
     alias: ["Akash","ආකාෂ්"],
-    desc: "Get Cyber-X Dev Team Bio Details",
+    desc: "Get TAIFUR-X  Dev Team Bio Details",
     category: "",
     use: '.akash',
     filename: __filename
@@ -136,9 +136,9 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 │ 👨‍✈️ *𝙼𝚁. 𝙰𝙺𝙰𝚂𝙷* 👨‍✈️    │
 └─────────────┘                                        
 
-📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, CYBER-X BOT හි BUG TESTER සහ BETA TESTER වේ. 👨‍💻*
+📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, TAIFUR-X  BOT හි BUG TESTER සහ BETA TESTER වේ. 👨‍💻*
 
-📌   *A member of the DARKALPHAXTEAM and he is the BETA TESTER and BUG TESTER of the CYBER-X BOT. 👨‍💻*
+📌   *A member of the DARKALPHAXTEAM and he is the BETA TESTER and BUG TESTER of the TAIFUR-X  BOT. 👨‍💻*
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
@@ -161,7 +161,7 @@ cmd({
     pattern: "naduwa",
     react: "💫",
     alias: ["නදුන්","nadu","නදුවා","Nadu","Naduwa"],
-    desc: "Get Cyber-X Dev Team Bio Details",
+    desc: "Get TAIFUR-X  Dev Team Bio Details",
     category: "",
     use: '.naduwa',
     filename: __filename
@@ -174,9 +174,9 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 │👨‍✈️ *𝙼𝚁. 𝙽𝙰𝙳𝚄𝚆𝙰*  👨‍✈️ │
 └─────────────┘                                        
 
-📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, CYBER-X BOT හි BUG TESTER සහ BETA TESTER වේ. 👨‍💻*
+📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, TAIFUR-X  BOT හි BUG TESTER සහ BETA TESTER වේ. 👨‍💻*
 
-📌   *A member of the DARKALPHAXTEAM and he is the BETA TESTER and BUG TESTER of the CYBER-X BOT. 👨‍💻*
+📌   *A member of the DARKALPHAXTEAM and he is the BETA TESTER and BUG TESTER of the TAIFUR-X  BOT. 👨‍💻*
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
@@ -199,7 +199,7 @@ cmd({
     pattern: "nima",
     react: "🌙",
     alias: ["නිමේෂ්","නිමා","Nima","nimesh","Nimesh"],
-    desc: "Get Cyber-X Dev Team Bio Details",
+    desc: "Get TAIFUR-X  Dev Team Bio Details",
     category: "",
     use: '.nima',
     filename: __filename
@@ -212,9 +212,9 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 │👨‍✈️ *𝙼𝚁. 𝙽𝙸𝙼𝙰* 👨‍✈️ │
 └───────────┘                                        
 
-📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, CYBER-X BOT හි CO-OWNER සහ CO-CODER වේ. 👨‍💻*
+📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, TAIFUR-X  BOT හි CO-OWNER සහ CO-CODER වේ. 👨‍💻*
 
-📌   *A member of the DARKALPHAXTEAM and he is the CO-OWNER and CO-CODER of the CYBER-X BOT. 👨‍💻*
+📌   *A member of the DARKALPHAXTEAM and he is the CO-OWNER and CO-CODER of the TAIFUR-X  BOT. 👨‍💻*
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
@@ -237,7 +237,7 @@ cmd({
     pattern: "tharuwa",
     react: "⭐",
     alias: ["tharu","Tharu","තරුවා","තරුෂ"],
-    desc: "Get Cyber-X Dev Team Bio Details",
+    desc: "Get TAIFUR-X  Dev Team Bio Details",
     category: "",
     use: '.tharuwa',
     filename: __filename
@@ -250,9 +250,9 @@ const maru =`⚖️ *ᴄʏʙᴇʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ ʙɪ�
 │ 👨‍✈️ *𝙼𝚁. 𝚃𝙷𝙰𝚁𝚄𝚆𝙰* 👨‍✈️  │
 └──────────────┘                                        
 
-📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, CYBER-X BOT හි BUG TESTER සහ BETA TESTER වේ. 👨‍💻*
+📌   *DARKALPHAXTEAM හි සාමාජිකයෙකු වන මොහු, TAIFUR-X  BOT හි BUG TESTER සහ BETA TESTER වේ. 👨‍💻*
 
-📌   *A member of the DARKALPHAXTEAM and he is the BETA TESTER and BUG TESTER of the CYBER-X BOT. 👨‍💻*
+📌   *A member of the DARKALPHAXTEAM and he is the BETA TESTER and BUG TESTER of the TAIFUR-X  BOT. 👨‍💻*
 
 ▬▬▬▬▬▬▬▬▬▬▬
 

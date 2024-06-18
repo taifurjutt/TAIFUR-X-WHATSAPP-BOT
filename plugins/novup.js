@@ -46,7 +46,7 @@ if (!/video/.test(mime) && !/audio/.test(mime)) return reply(`❌ *Unsupported f
 reply("🔄 *Processing converter please wait....*")
 let media = await conn.downloadAndSaveMediaMessage(quoted)
 let audio = await toAudio(media, 'mp4')
-await conn.sendMessage(from, {document: audio, mimetype: 'audio/mp3', fileName: `Converted By Cyber-X.mp3`}, { quoted : mek })
+await conn.sendMessage(from, {document: audio, mimetype: 'audio/mp3', fileName: `Converted By TAIFUR-X .mp3`}, { quoted : mek })
 } catch (e) {
 reply(e)
 }
@@ -97,7 +97,7 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-const fouad = `\n🪀 *Cyber-X Fouad-WA Official Mods Downloader*
+const fouad = `\n🪀 *TAIFUR-X  Fouad-WA Official Mods Downloader*
 
 Download FMWA latest version apk from here... Powered By original FM Mods site: We are not responsible if your account gets banned using this mod.
 
@@ -133,7 +133,7 @@ try{
 if ( !q ) return reply('ℹ *Please enter Facebook Media Link*')
 const data = await fg.scsearch(q)
 const anu = data[0]
-let deka =`\n*Cyber-X Soundcloud MP3 Downloader* 📥
+let deka =`\n*TAIFUR-X  Soundcloud MP3 Downloader* 📥
 
 *🎶 Title : ${anu.title}*
 

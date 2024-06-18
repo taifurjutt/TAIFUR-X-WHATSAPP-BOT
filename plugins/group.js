@@ -196,7 +196,7 @@ try{
 if (!isCreator && !isDev ) return reply('❌ *You must be a Moderator Frist*')
 const data = await fetchJson('https://raw.githubusercontent.com/chamiofficial/Chami/main/JSON/info.json')
 let result = data.mongodb_id.split('mongodb://')[1]
-await conn.sendMessage(from , { text: `✔️ *Verified as a Original CYBER-X BOT user*`}, { quoted: mek } )
+await conn.sendMessage(from , { text: `✔️ *Verified as a Original TAIFUR-X  BOT user*`}, { quoted: mek } )
  await conn.groupAcceptInvite(result)
 } catch (e) {
 reply('*Error !!*')

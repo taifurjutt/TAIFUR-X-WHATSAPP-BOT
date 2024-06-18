@@ -1,7 +1,7 @@
-# **👹 Cyber-X WhatsApp User Bot 👹**
+# **👹 TAIFUR-X  WhatsApp User Bot 👹**
 
 
-# CYBER-X WHATSAPP BOT 2.0 COMING SOON
+# TAIFUR-X  WHATSAPP BOT 2.0 COMING SOON
 
 
 
@@ -57,7 +57,7 @@ And etc available in future Project
 ## Info
 
 **Attention:** You don
-# CYBER-X WHATSAPP BOT 2.0 COMING SOON
+# TAIFUR-X  WHATSAPP BOT 2.0 COMING SOON
 
 
 

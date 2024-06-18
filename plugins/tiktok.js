@@ -15,7 +15,7 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 const data = await fg.tiktok(q)
 const msgg =`
-*CYBER-X TIKTOK DOWNLOADER* 📥
+*TAIFUR-X  TIKTOK DOWNLOADER* 📥
 
 🖇️ *_Link -: ${q}_*
 

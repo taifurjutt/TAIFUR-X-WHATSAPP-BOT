@@ -42,7 +42,7 @@ console.log("✔️ SQL Database Connected")
 // ===========SESSION===========
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.split("cyber-x@;;;")[1]
+const sessdata = config.SESSION_ID.split("TAIFUR-X @;;;")[1]
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -58,12 +58,12 @@ const port = process.env.PORT || 8000;
 async function connectToWA() {
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 const { version, isLatest } = await fetchLatestBaileysVersion()
-console.log(`🤖 Cyber-X using WA v${version.join('.')}, isLatest: ${isLatest}`)
+console.log(`🤖 TAIFUR-X  using WA v${version.join('.')}, isLatest: ${isLatest}`)
 const conn = makeWASocket({
 version,
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ["CYBER-X 2.1", "safari", "3.3"],
+browser: ["TAIFUR-X  2.1", "safari", "3.3"],
 auth: state,
 getMessage: async (key) => {
             if (store) {
@@ -71,7 +71,7 @@ getMessage: async (key) => {
                 return msg.message || undefined
             }
             return {
-                conversation: "Cyber-X Web 2.1"
+                conversation: "TAIFUR-X  Web 2.1"
             }
         }})
 
@@ -90,7 +90,7 @@ require("./plugins/" + plugin);
 }
 });
 console.log('📚 All Plugins installed')
-console.log('🐉 Cyber-X WhatsApp Bot connected ✅')
+console.log('🐉 TAIFUR-X  WhatsApp Bot connected ✅')
 //const botada = jidNormalizedUser(conn.user.id)   
 //conn.sendMessage(botada, { image: { url : "https://i.imgur.com/5fjnt53.jpeg" } , caption: "*TAIFUR-X 2.0 Connected to WhatsApp* ✔️\n\n_This is the result of our team's hard work and our team owns the bot's rights and code rights. Therefore, you have no chance to change and submit our bot under any circumstances._\n\n🔰 *Official GitHub* - ```https://github.com/Itxtaifur```\n\n🪀 *WhatsApp Community* - ```https://chat.whatsapp.com/CwFuybm14L697Viv4fvbE3```\n\n🧿 *Announcement Group* - ```https://chat.whatsapp.com/DZfpcfE1w0SAAWeikPKyFA```\n\n*ᴛᴀɪꜰᴜʀ ᴏꜰꜰɪᴄɪᴀʟ*\n*ᴀʟʟ ʀɪɢʜᴛ ʀᴇꜱᴇʀᴠᴇᴅ - ᴛᴇᴀᴍ*"})
 }
@@ -117,7 +117,7 @@ const isGroup = from.endsWith('@g.us')
 const sender = mek.key.fromMe ? (conn.user.id.split(':')[0]+'@s.whatsapp.net' || conn.user.id) : (mek.key.participant || mek.key.remoteJid)
 const senderNumber = sender.split('@')[0]
 const botNumber = conn.user.id.split(':')[0]
-const pushname = mek.pushName || 'Cyber-X user'
+const pushname = mek.pushName || 'TAIFUR-X  user'
 const isMe = botNumber.includes(senderNumber)
 const isOwner = ownerNumber.includes(senderNumber) || isMe
 const botNumber2 = await jidNormalizedUser(conn.user.id);
@@ -334,7 +334,7 @@ if (config.AI_MODE == "true"){
 if ( body.startsWith('/gpt')) {
 let bodyy = body.split('/gpt')[1]
 const aimsg = await fetchJson(`https://vihangayt.me/tools/chatgpt?q=${bodyy}`)
-reply("🧠 *Cyber-X AI Mode :- chatGPT*\n\n"+aimsg.data)
+reply("🧠 *TAIFUR-X  AI Mode :- chatGPT*\n\n"+aimsg.data)
 }
 }
 //------------------------------ REPLYS WITHOUT COMMANDS --------------------------------
@@ -458,7 +458,7 @@ if ( rew.includes('APK') ) {
 const getid = rew.split("ɪᴅ - ")[1]
 const app = await download(getid)
 const msgg =`
-*CYBER-X APK INFORMATIONS*
+*TAIFUR-X  APK INFORMATIONS*
 
 📚 *App name -: ${app.name}*
 
@@ -575,7 +575,7 @@ menuc += `⏲️ *Pattern - ${commands[i].pattern}*
 `
 }}};
 
-let menumg = `🔐 *MAIN COMMAND LIST-CYBER-X 2.0*
+let menumg = `🔐 *MAIN COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
@@ -634,7 +634,7 @@ await db_pool.insert( "ALIVE_IMAGE" , getimage )
 const resmsg =`*Alive message and image Successfully Updated* ✅`
 reply(resmsg)
 }
-if ( rew.includes('Cyber-X Fouad-WA') ) {
+if ( rew.includes('TAIFUR-X  Fouad-WA') ) {
 const getmod = await mods()
 let moddata = getmod.com_whatsapp
 await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
@@ -656,7 +656,7 @@ menuc += `📥 *Pattern - ${commands[i].pattern}*
 `
 }}};
 
-let menumg = `🔐 *DOWNLOAD COMMAND LIST-CYBER-X 2.0*
+let menumg = `🔐 *DOWNLOAD COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
@@ -711,7 +711,7 @@ await db_pool.insert( "OWNER_NUMBER" , data )
 const resmsg =`*Owner Number Successfully Updated* ✅`
 reply(resmsg)
 }
-if ( rew.includes('Cyber-X Fouad-WA') ) {
+if ( rew.includes('TAIFUR-X  Fouad-WA') ) {
 const getmod = await mods()
 let moddata = getmod.com_fmwhatsapp
 await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
@@ -734,7 +734,7 @@ menuc += `🔎 *Pattern - ${commands[i].pattern}*
 `
 }}};
 
-let menumg = `🔐 *SEARCH COMMAND LIST-CYBER-X 2.0*
+let menumg = `🔐 *SEARCH COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
@@ -790,7 +790,7 @@ await db_pool.insert( "OWNER_NAME" , data )
 const resmsg =`*Owner Name Successfully Updated* ✅`
 reply(resmsg)
 }
-if ( rew.includes('Cyber-X Fouad-WA') ) {
+if ( rew.includes('TAIFUR-X  Fouad-WA') ) {
 const getmod = await mods()
 let moddata = getmod.com_gbwhatsapp
 await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
@@ -812,7 +812,7 @@ menuc += `🧑‍🔧 *Pattern - ${commands[i].pattern}*
 `
 }}};
 
-let menumg = `🔐 *PROFILE COMMAND LIST-CYBER-X 2.0*
+let menumg = `🔐 *PROFILE COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
@@ -839,7 +839,7 @@ await db_pool.insert( "OPENAI_KEY" , data )
 const resmsg =`*OpenAi Key Successfully Updated* ✅`
 reply(resmsg)
 }
-if ( rew.includes('Cyber-X Fouad-WA') ) {
+if ( rew.includes('TAIFUR-X  Fouad-WA') ) {
 const getmod = await mods()
 let moddata = getmod.com_yowhatsapp
 await conn.sendMessage(from, { document : { url : moddata.link } , caption:"*Downloaded from https://fmmods.com/fouad-whatsapp/*\n\n*ᴄʏʙᴇʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" ,mimetype: 'application/vnd.android.package-archive', fileName: `${moddata.name}.apk` }, { quoted: mek })
@@ -861,7 +861,7 @@ menuc += `🪀 *Pattern - ${commands[i].pattern}*
 `
 }}};
 
-let menumg = `🔐 *GROUP COMMAND LIST-CYBER-X 2.0*
+let menumg = `🔐 *GROUP COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
@@ -903,7 +903,7 @@ menuc += `📪 *Pattern - ${commands[i].pattern}*
 `
 }}};
 
-let menumg = `🔐 *EXTRA COMMAND LIST-CYBER-X 2.0*
+let menumg = `🔐 *EXTRA COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
@@ -954,7 +954,7 @@ menuc += `🌅 *Pattern - ${commands[i].pattern}* - _Enter your Text_
 `
 }}};
 
-let menumg = `🔐 *TEXT TO IMAGE COMMAND LIST-CYBER-X 2.0*
+let menumg = `🔐 *TEXT TO IMAGE COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
@@ -990,7 +990,7 @@ menuc += `📪 *Pattern - ${commands[i].pattern}*
 `
 }}};
 
-let menumg = `🔐 *PHOTO EDIT COMMAND LIST-CYBER-X 2.0*
+let menumg = `🔐 *PHOTO EDIT COMMAND LIST-TAIFUR-X  2.0*
 
 ${menuc}
 
@@ -1079,7 +1079,7 @@ console.log(isError)}
 })
 }
 app.get("/", (req, res) => {
-res.send("*Cyber-X WhatsApp Bot Working successfully..!*");
+res.send("*TAIFUR-X  WhatsApp Bot Working successfully..!*");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {

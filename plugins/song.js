@@ -26,7 +26,7 @@ if ( isUrl(q) ) {
 if ( !q.includes('youtu') ) return reply('*Please enter valid Youtube Url* ❗')
  const kanu = await dl.youtubedl(q)
 let thama =`
-*CYBER-X 2.0 YTMP3 DOWNLOADER*  📥
+*TAIFUR-X  2.0 YTMP3 DOWNLOADER*  📥
 
 *🎶 Title : ${kanu.title}*
 
@@ -53,7 +53,7 @@ let yts = require("yt-search")
 let search = await yts(q)
 let anu = search.videos[0]
 let thama =`
-*CYBER-X 2.0 YTMP3 DOWNLOADER*  📥
+*TAIFUR-X  2.0 YTMP3 DOWNLOADER*  📥
 
 *🎶 Title : ${anu.title}*
 

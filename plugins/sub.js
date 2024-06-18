@@ -16,7 +16,7 @@ try{
 if (!q) return reply("❗ *Please enter movie name to download Subtitles*")
 const duka = await subsearch(q)
 const latest = await subdl(duka.results[0].link)
-const maru =`\n🧾 *CYBER-X SINHALA SUB DOWNLOADER* 🧾
+const maru =`\n🧾 *TAIFUR-X  SINHALA SUB DOWNLOADER* 🧾
 
 📊 *Movie Title* - *_${latest.results.title}_*
 
@@ -71,7 +71,7 @@ try{
 if (!q) return reply("❗ Please enter movie Link to download Subtitles*")
 if(!q.includes('baiscope')) return reply('🚫 *Please enter Valid Movie url*')
  const latest = await subdl(q)
-const maru =`\n🧾 *CYBER-X SL SUBTITLES DOWNLOADER* 🧾
+const maru =`\n🧾 *TAIFUR-X  SL SUBTITLES DOWNLOADER* 🧾
 
 📊 *Movie title* - ${latest.results.title}*
 

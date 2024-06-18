@@ -44,7 +44,7 @@ if (!q) return reply('❓ *Please give me a Username*')
 const duka = await fetchJson(`https://darkalphaxteam-api.cyclic.app/api/other/github-stalk?username=${q}&apikey=darkalpha`)
  const pk = `\n❍⚯───────────────────⚯❍
    📑  *𝙶𝙸𝚃𝙷𝚄𝙱 𝚄𝚂𝙴𝚁 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽𝚂*  📑
-    ⚡ *ᴄʏʙᴇʀ x ɢɪᴛʜᴜʙ ꜱᴇᴀʀᴄʜ ᴇɴɢɪɴᴇ* ⚡
+    ⚡ *ᴛᴀɪꜰᴜʀ x ɢɪᴛʜᴜʙ ꜱᴇᴀʀᴄʜ ᴇɴɢɪɴᴇ* ⚡
 ❍⚯───────────────────⚯❍
 
 🪀. Account Name  - ${duka.result.user.name}
@@ -58,7 +58,7 @@ const duka = await fetchJson(`https://darkalphaxteam-api.cyclic.app/api/other/gi
 🚧. UserID -${duka.result.user.idUser}
 🛴. Public Repose - ${duka.result.user.publicRepos}`
 
- await conn.sendMessage(from,{image:{url: duka.result.user.avatarUrl },caption: pk + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
+ await conn.sendMessage(from,{image:{url: duka.result.user.avatarUrl },caption: pk + "\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴀɪꜰᴜʀ X ʟᴜᴄɪꜰᴇʀ ᴏꜰᴄ*" },{quoted:mek })
 
 } catch (e) {
 reply('🚫 *Error Accurated !!*\n\n' + e )
@@ -79,11 +79,11 @@ async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sen
 try{
 if (!q) return reply('🖊️ *Please type a App name for search*')
 const vid = await fetchJson(`https://api.akuari.my.id/search/playstoresearch?query=${q}`)
-    let yt = '\n❍⚯────────────────────⚯❍\n       🎲  *𝙿𝙻𝙰𝚈𝚂𝚃𝙾𝚁𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽*  🎲\n  ⚡ *ᴄʏʙᴇʀ x ᴘʟᴀʏꜱᴛᴏʀᴇ ꜱᴇᴀʀᴄʜ ᴇɴɢɪɴᴇ* ⚡\n❍⚯────────────────────⚯❍\n\n\n'
+    let yt = '\n❍⚯────────────────────⚯❍\n       🎲  *𝙿𝙻𝙰𝚈𝚂𝚃𝙾𝚁𝙴 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽*  🎲\n  ⚡ *ᴛᴀɪꜰᴜʀ x ᴘʟᴀʏꜱᴛᴏʀᴇ ꜱᴇᴀʀᴄʜ ᴇɴɢɪɴᴇ* ⚡\n❍⚯────────────────────⚯❍\n\n\n'
     for (let i of vid.hasil ) {
         yt += `🧮 *App Name - ${i.title}*\n📊 Developer : ${i.developer} \n🔗 _Link : ${i.url}_ \n\n\n`
     }
- await conn.sendMessage(from,{image:{url: vid.hasil[0].icon },caption: yt + "*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*" },{quoted:mek })
+ await conn.sendMessage(from,{image:{url: vid.hasil[0].icon },caption: yt + "*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴀɪꜰᴜʀ X ʟᴜᴄɪꜰᴇʀ ᴏꜰᴄ*" },{quoted:mek })
 } catch (e) {
 reply('⛔ *Error accurated !!*\n\n' + e )
 l(e)

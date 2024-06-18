@@ -23,7 +23,7 @@ const makeRandom = (ext) => {
 const res = await sswebA( q ,false,'desktop');
 let namefile = makeRandom('') + '.jpg'
 fs.writeFileSync(namefile, res)
-await conn.sendMessage(from, { image: fs.readFileSync(namefile), caption: '*Screenshots completed* ✔️\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*' }, { quoted: mek })
+await conn.sendMessage(from, { image: fs.readFileSync(namefile), caption: '*Screenshots completed* ✔️\n\n*ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*\n*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴀɪꜰᴜʀ X ʟᴜᴄɪꜰᴇʀ ᴏꜰᴄ*' }, { quoted: mek })
 } catch (e) {
 reply('⛔ *Error accurated !!*\n\n'+ e )
 l(e)

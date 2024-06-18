@@ -33,7 +33,7 @@ const msgg =`
 │ 🎶 *3 - Audio Only*
 
 *ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴀɪꜰᴜʀ X ʟᴜᴄɪꜰᴇʀ ᴏꜰᴄ*`
 
 await conn.sendMessage(from, { image: { url : "https://telegra.ph/file/ad3f8fdd9a74e791c3c3f.jpg" } , caption: msgg }, { quoted: mek })
 

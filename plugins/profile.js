@@ -50,7 +50,7 @@ let puka = `🛠️  *ᴛᴀɪꜰᴜʀ-x ʙᴏᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴘʀ�
 ⚠️ *_This will not cause any trouble to you, and you can only check the privacy status of the bot... This will not harm your privacy in any way..._* 🕊️‼️
 
 *ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴀɪꜰᴜʀ X ʟᴜᴄɪꜰᴇʀ ᴏꜰᴄ*`
  await conn.sendMessage(from , { text: puka }, { quoted: mek } )
 
 } catch (e) {

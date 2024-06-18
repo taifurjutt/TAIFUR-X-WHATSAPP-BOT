@@ -27,7 +27,7 @@ const mfile = conn.sendMessage(from, { document : { url : baby1.link}, fileName 
 *🕹️▕ File Type* : ${baby1.mime}
 
 *ᴛᴀɪꜰᴜʀ-x ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ : ᴠᴏʟ-ɪɪ*
-*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋᴀʟᴘʜᴀxᴛᴇᴀᴍ ᴏꜰᴄ*`}, {quoted: mek})	
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴀɪꜰᴜʀ X ʟᴜᴄɪꜰᴇʀ ᴏꜰᴄ*`}, {quoted: mek})	
 await conn.sendMessage(from, { react: { text: '📁', key: mfile.key }})
 } catch (e) {
 reply('*Error !!*')

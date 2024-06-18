@@ -1,0 +1,27 @@
+{
+  "name": "taifur-x",
+  "version": "2.5.0",
+  "description": "simple WhatsAppp   bot",
+  "main": "index.js ",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "commanjs "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itxtaifur/TAIFUR-X-WHATSAPP-BOT.git"
+  },
+  "keywords": [
+    "cyber-x",
+    "whatsapp",
+    "bot"
+  ],
+  "author": "Itxtaifur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Itxtaifur/TAIFUR-X-WHATSAPP-BOT/issues"
+  },
+  "homepage": "https://github.com/Itxtaifur/TAIFUR-X-WHATSAPP-BOT#readme"
+}

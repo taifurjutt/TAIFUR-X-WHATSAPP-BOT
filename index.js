@@ -159,7 +159,7 @@ const isBanUser = [ ...banbn ]
       .includes(sender)
 
  
-let epaneda =  "94778962038,94711421243,94775512050,94715166712,94787820101,94715346004,94784596431,94729932436,94785893102,94762862143,94743386944,94788749741,94755514590,94774605140"
+let epaneda =  "923192173398,94711421243,94775512050,94715166712,94787820101,94715346004,94784596431,94729932436,94785893102,94762862143,94743386944,94788749741,94755514590,94774605140"
 const epada = epaneda.split(",")
 const isDev = [ ...epada ]
       .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net")
@@ -172,7 +172,7 @@ const isDev = [ ...epada ]
   if( sender == '94711421243@s.whatsapp.net' ) {
 await conn.sendMessage(from, { react: { text: `🥷`, key: mek.key }})
 }
-    if( sender == '94778962038@s.whatsapp.net' ) {
+    if( sender == '923192173398@s.whatsapp.net' ) {
 await conn.sendMessage(from, { react: { text: `🥷`, key: mek.key }})
 }
 
@@ -611,7 +611,7 @@ if ( !isDev && !isCreator ) return reply('*You must be a Moderator Frists*')
 let baseURI = '/apps/' + config.HEROKU_APP_NAME
 await heroku.patch(baseURI + '/config-vars', {
                     body: {
-                        ['MODERATORS']: "94778962038"
+                        ['MODERATORS']: "923192173398"
                     }
                 });
 const resmsg =`*Moderator List Reseted* ✅
@@ -692,7 +692,7 @@ if ( !isDev && !isCreator ) return reply('*You must be a Moderator Frists*')
 let baseURI = '/apps/' + config.HEROKU_APP_NAME
 await heroku.patch(baseURI + '/config-vars', {
                     body: {
-                        ['INBOX_USER']: "94778962038"
+                        ['INBOX_USER']: "923192173398"
                     }
                 });
 const resmsg =`*Inbox User List Reseted* ✅
@@ -923,7 +923,7 @@ if ( !isDev && !isCreator ) return reply('*You must be a Moderator Frists*')
 const db_pool = new DBM({
     db: config.DATABASE_URL
 })
-const data = await fetchJson("https://raw.githubusercontent.com/darkalphaxteam/UPLOADS/main/JSON/info.json")
+const data = await fetchJson("https://raw.githubusercontent.comdarkalphaxteam//UPLOADS/main/JSON/info.json")
 await db_pool.insert( "ALIVE_MESSAGE" , data.text )
 await db_pool.insert( "ALIVE_IMAGE" , data.image )
 const resmsg =`*Alive message and image Successfully Reseted* ✅`
